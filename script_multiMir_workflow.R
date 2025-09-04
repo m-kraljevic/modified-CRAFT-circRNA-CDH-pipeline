@@ -321,4 +321,39 @@ bar1c$circ_group <- sub("::.*", "", bar1c$circ_id)
 eg <- bitr(target_genes, fromType="SYMBOL", toType="ENTREZID", OrgDb=params$orgdb)
 
 
+
 sessionInfo()
+
+
+
+# Our session info
+# R version 4.4.3 (2025-02-28)
+# Platform: x86_64-redhat-linux-gnu
+# Running under: Red Hat Enterprise Linux 9.4 (Plow)
+# 
+# Matrix products: default
+# BLAS/LAPACK: FlexiBLAS OPENBLAS-OPENMP;  LAPACK version 3.9.0
+# 
+# locale:
+#   [1] LC_CTYPE=en_CA.UTF-8       LC_NUMERIC=C               LC_TIME=en_CA.UTF-8        LC_COLLATE=en_CA.UTF-8     LC_MONETARY=en_CA.UTF-8    LC_MESSAGES=en_CA.UTF-8   
+# [7] LC_PAPER=en_CA.UTF-8       LC_NAME=C                  LC_ADDRESS=C               LC_TELEPHONE=C             LC_MEASUREMENT=en_CA.UTF-8 LC_IDENTIFICATION=C       
+# 
+# time zone: America/Winnipeg
+# tzcode source: system (glibc)
+# 
+# attached base packages:
+#   [1] grid      stats4    stats     graphics  grDevices utils     datasets  methods   base     
+# 
+# other attached packages:
+#   [1] viridis_0.6.5        viridisLite_0.4.2    tibble_3.2.1         RColorBrewer_1.1-3   lattice_0.22-6       gtable_0.3.5         gridExtra_2.3        ggplot2_3.5.1       
+# [9] BiocManager_1.30.23  knitr_1.49           GO.db_3.19.1         AnnotationDbi_1.66.0 Biobase_2.64.0       Biostrings_2.72.1    GenomeInfoDb_1.40.1  XVector_0.44.0      
+# [17] IRanges_2.38.0       S4Vectors_0.42.0     BiocGenerics_0.50.0  stringr_1.5.1        dplyr_1.1.4          readr_2.1.5          multiMiR_1.26.0      data.table_1.16.4   
+# 
+# loaded via a namespace (and not attached):
+#   [1] KEGGREST_1.44.1         xfun_0.50               tzdb_0.4.0              vctrs_0.6.5             tools_4.4.3             bitops_1.0-9            generics_0.1.3         
+# [8] fansi_1.0.6             RSQLite_2.3.11          blob_1.2.4              pkgconfig_2.0.3         lifecycle_1.0.4         GenomeInfoDbData_1.2.12 compiler_4.4.3         
+# [15] munsell_0.5.1           htmltools_0.5.8.1       RCurl_1.98-1.17         pillar_1.9.0            crayon_1.5.3            cachem_1.1.0            tidyselect_1.2.1       
+# [22] digest_0.6.37           stringi_1.8.4           purrr_1.0.2             fastmap_1.2.0           colorspace_2.1-0        cli_3.6.3               magrittr_2.0.3         
+# [29] XML_3.99-0.18           utf8_1.2.4              withr_3.0.0             UCSC.utils_1.0.0        scales_1.3.0            bit64_4.6.0-1           httr_1.4.7             
+# [36] bit_4.5.0.1             png_0.1-8               hms_1.1.3               evaluate_1.0.3          memoise_2.0.1           rlang_1.1.4             glue_1.7.0             
+# [43] DBI_1.2.3               rstudioapi_0.17.1       jsonlite_1.8.8          R6_2.5.1                zlibbioc_1.50.0     
